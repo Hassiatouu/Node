@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities{
+
+
+    .btn{
+        width: 270px;
+    }
+
+    .bd{
+        display: none;
+        border-bottom: 1px solid #026e00;
+    }
+
+    .li-bd:hover .bd{
+        display: block;
+    }
+
+    .nowrap {
+        white-space: nowrap;
+    }
+}
